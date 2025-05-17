@@ -23,6 +23,7 @@ import { Home } from "../pages/Home";
 import { Sobre } from "../pages/Sobre";
 import { Produtos } from "../pages/Produtos";
 import { Header } from "../components/header/Header";
+import PagerError404 from "../pages/PagerErro404";
 
 export const Paths = () => {
     return (
@@ -32,6 +33,7 @@ export const Paths = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/sobre" element={<Sobre />} />
                 <Route path="/produtos" element={<Produtos />} />
+                <Route path="/*" element={<PagerError404/>} />
             </Routes>
         </BrowserRouter>
     )
