@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Inter";
+  color: rgb(36, 36, 168);
+  list-style: none;
+}
+
+header{
+  box-shadow: 0px 4px 4px #00000020;
+  padding: .5rem 0;
+}
+ 
+.wrapper{
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 0 1.5rem;
+}
+
+.navbar{
+  max-width: 1140px;
+  padding: 0 1rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  font-size: 2rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.menu{
+  display: flex;
+  gap: 1.5rem;
+}
+
+.menu a{
+  text-decoration: none;
+}
+
+section{
+  padding: 2rem 0;
+}
